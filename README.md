@@ -17,7 +17,7 @@ cd gpg-file-encryptor
 To use the script from any directory, you can copy it to /usr/local/bin and set the appropriate permissions.
 
 
-sudo cp gpg.sh /usr/local/bin/gpg_script
+sudo cp gpg_script.sh /usr/local/bin/gpg_script
 
 sudo chmod +x /usr/local/bin/gpg_script
 
