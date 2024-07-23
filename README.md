@@ -26,24 +26,24 @@ sudo apt-get update
 
 Encrypt a File
 
-./gpg e <filename>
+./gpg e myfile.txt
 
 
 Decrypt a File
-
-./gpg d <filename>
-
-
-Example
-./gpg e myfile.txt
 
 ./gpg d myfile.txt.gpg
 
 
 
+
+
 Note
+
 During encryption, you will be prompted to enter a passphrase.
+
 During decryption, you will be prompted to enter the passphrase used for encryption.
+
 For encryption, you will be asked if you want to delete the original unencrypted file after encrypting it.
+
 
 
