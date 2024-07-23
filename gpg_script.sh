@@ -27,7 +27,7 @@ if [ -f "$file" ]; then
         read -s password
         gpg --batch --passphrase "$password" --symmetric --output $file.gpg $file
         echo 
-        echo -n "Do you want to delete unecrypted file? (y/n) "
+        echo -n "Do you want to delete unencrypted file? (y/n) "
         read user
         if [ "$user" = "y" ] || [ "$user" = "Y" ]; then
             rm $file
