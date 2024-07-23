@@ -18,24 +18,26 @@ To use the script from any directory, you can copy it to /usr/local/bin and set 
 
 
 sudo cp gpg.sh /usr/local/bin/gpg
+
 sudo chmod +x /usr/local/bin/gpg
+
 sudo apt-get update
 
 
 Encrypt a File
 
-./gpg.sh e <filename>
+./gpg e <filename>
 
 
 Decrypt a File
 
-./gpg.sh d <filename>
+./gpg d <filename>
 
 
 Example
-./gpg.sh e myfile.txt
+./gpg e myfile.txt
 
-./gpg.sh d myfile.txt.gpg
+./gpg d myfile.txt.gpg
 
 
 
