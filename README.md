@@ -17,21 +17,21 @@ cd gpg-file-encryptor
 To use the script from any directory, you can copy it to /usr/local/bin and set the appropriate permissions.
 
 
-sudo cp gpg.sh /usr/local/bin/gpg
+sudo cp gpg.sh /usr/local/bin/gpg_script
 
-sudo chmod +x /usr/local/bin/gpg
+sudo chmod +x /usr/local/bin/gpg_script
 
 sudo apt-get update
 
 
 Encrypt a File
 
-./gpg e myfile.txt
+gpg_script e myfile.txt
 
 
 Decrypt a File
 
-./gpg d myfile.txt.gpg
+gpg_script d myfile.txt.gpg
 
 
 
